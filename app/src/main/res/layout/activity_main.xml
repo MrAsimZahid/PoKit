@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/welcome"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:id="@+id/welcomeHeading"
+        android:layout_below="@+id/imageView"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomebelow"
+        android:textSize="17sp"
+        android:id="@+id/welcomeHeadingtextbelow"
+        android:layout_below="@+id/welcomeHeading"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:padding="25dp"
+        android:layout_centerInParent="true"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:layout_below="@id/welcomeHeadingtextbelow"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="HOME"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:title="SEARCH"
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:title="Stats"
+        android:id="@+id/stats"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        />
+
+    <item
+        android:title="chat"
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        />
+
+    <item
+        android:title="others"
+        android:id="@+id/others"
+        android:icon="@drawable/ic_apps_black_24dp"
+        />
+
+
+
+
+
+</menu>
